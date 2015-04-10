@@ -1,0 +1,49 @@
+<resources>
+    <string name="ssdk_socialization_let_me_say">Say something</string>
+    <string name="ssdk_socialization_comment_like_author_title">Comes from：</string>
+    <string name="ssdk_socialization_comment_like_comment_list_title">comments list</string>
+    <string name="ssdk_socialization_hot_list">Hot Comments</string>
+    <string name="ssdk_socialization_new_list">New Comments</string>
+    <string name="ssdk_socialization_right_now">Just now</string>
+    <string name="ssdk_socialization_xx_min_before">%sMins ago</string>
+    <string name="ssdk_socialization_xx_hour_before">%sHours ago</string>
+    <string name="ssdk_socialization_reply_page_title">Comment</string>
+    <string name="ssdk_socialization_reply_to">Re: %s</string>
+    
+    <string name="ssdk_socialization_reply">comment</string>
+
+    <string name="ssdk_socialization_text_copied">The text has been copied</string>
+    <string name="ssdk_socialization_click_to_unfold">unfold hidden Comment</string>
+    <string name="ssdk_socialization_loading_next">Loading…</string>
+    <string name="ssdk_socialization_failed_to_reply">Comment failed</string>
+   <string name="ssdk_socialization_reply_succeeded">Comment successful</string>
+   <string name="ssdk_socialization_not_yet_authorized">No Authorized</string>
+   <string name="ssdk_socialization_auth_failed">Authorized Failed</string>
+   <string name="ssdk_socialization_selsect_account">Way to Auth</string>
+   <string name="ssdk_socialization_replying">Sending…</string>
+   <string name="ssdk_socialization_like_failed">like fial</string>
+   <string name="ssdk_socialization_spam_reply">Comment on illegal content, please fill in again</string>
+   <string name="ssdk_socialization_you_have_liked_the_topic">Liked</string>
+   <string name="ssdk_socialization_select_account">Auth username：</string>
+   <string name="ssdk_socialization_select_another">Add more…</string>
+   <string name="ssdk_socialization_change_account">Change</string>
+   <string name="ssdk_socialization_bind_account">Bind</string>
+   <string name="ssdk_socialization_last_refresh_time">Last time：%s</string>
+   <string name="ssdk_socialization_replay_too_frequently">Reply too frequently, please reply again later</string>
+   <string name="ssdk_socialization_comment_rejected">The comment has been blocked</string>
+   <string name="ssdk_socialization_comment_list_is_empty">no comment</string>
+	<string name="ssdk_socialization_pull_to_refresh">pull-to-refresh </string>
+	<string name="ssdk_socialization_release_to_refresh">Loosen the refresh</string>
+	<string name="ssdk_socialization_refreshing">Refreshing…</string>
+
+	<string name="ssdk_socialization_nickname">Unknown</string>
+	<string name="ssdk_socialization_progressdialog_msg">Please waiting......</string>
+	<string name="ssdk_socialization_progressdialog_auth">Auth</string>
+	<string name="ssdk_socialization_progressdialog_do_authing">Share need to authorization first......</string>
+   
+   <string name="ssdk_socialization_comment_error">sensitive character</string>
+   <string name="ssdk_socialization_comment_too_short">Character length less than</string>
+   <string name="ssdk_socialization_comment_too_long">characters too long</string>
+   <string name="ssdk_socialization_comment_repeat">Repeated characters too much</string>   
+   
+</resources>

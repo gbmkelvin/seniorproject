@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/iidlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredient No:"
+        android:textColor="#FF0066"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/iid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iidlabel"
+        android:textColor="#FFCC99"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/inamelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iidlabel"
+        android:text="Ingredient name: "
+        android:textColor="#FF0066"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/iname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iid"
+        android:layout_toRightOf="@+id/inamelabel"
+        android:textColor="#FFCC99"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/icategorylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iname"
+        android:text="@string/category"
+        android:textColor="#FF0066"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/icategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iname"
+        android:layout_toRightOf="@+id/icategorylabel"
+        android:textColor="#FFCC99"
+        android:textStyle="bold" />
+
+</RelativeLayout>

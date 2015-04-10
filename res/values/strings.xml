@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">CAMT_CFC</string>
+    <string name="srcategory">"Category: "</string>
+    <string name="category">"Category: "</string>
+    <string name="srname">"Recipe Name: "</string>
+    <string name="cminstruction">"Instruction: "</string>
+    <string name="rname">"Recipe Name: "</string>
+    <string name="cmid">"Step No: "</string>
+    <string name="rid">"Recipe No: "</string>
+    <string name="des">"Description: "</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">About Us</string>
+    <string name="about_title">Name:CAMT_CFC\nVersion:1.0</string>
+    <string name="about_thanks">[Thanks]\nRuijuan Liu, Qiye Li, Yuke Chen, Peerawat Poombua, Aj.Ball\nThanks to my Lord, Jesus Christ</string>
+    <string name="about_opensource">[OpenSource]\n</string>
+    <string name="about_tontact">Contact us：</string>
+    <string name="about_daohang">Daohang Zhou 542115505 \nsenior at CAMT SE CMU</string>
+    <string name="about_jianhua">Jianhua He\t542115506 \nsenior at CAMT SE CMU</string>
+    <string name="about_sina"> \@Call for Cooking on Android</string>
+    <string name="about_weixin">cfc_cn </string>
+    <string name="search_label">search bar</string>
+    <string name="search_hint">search recipe or ingredient</string>
+    <string name="user_logout">Logout</string>
+    <string name="usernamelable">"Name : "</string>
+    <!-- share sdk -->
+
+    <string name="proj_name">ShareSDK_TPL</string>
+    <string name="share_sdk">Call for Cooking</string>
+    <string name="login_with_qzone">QQ Zone Login</string>
+    <string name="logining">Uesing %s login</string>
+    <string name="auth_cancel">auth_cancel</string>
+    <string name="auth_error">auth_error</string>
+    <string name="auth_complete">auth_successed,redirecting</string>
+    <string name="share_content">Spicy Fish Stew,chongqing YuBei flavor. Seemingly original practice, actual exquisite - selected fresh raw fish, and give full play to the pepper warm effect, tomifying qi and blood, meat cooking out does not become tough, smooth taste, oil and not greasy.</string>
+    <string name="share_content_short"></string>
+    <!-- Comment and like -->
+    <string name="comment_like_title">Call for Cooking Comments</string>
+    <string name="comment_like_comment_list">follow-up</string>
+    <!-- Voice control -->
+    <string name="app_id">5464bd87</string>
+    <string name="pref_key_iat_show">iat_show</string>
+    <string name="pref_title_iat_show">listen</string>
+    <string name="tts_toast_format" formatted="false">buffering %d%%，reading %d%%</string>
+    <string name="text_begin">Please say something&#8230;</string>
+    <!-- 提示安装语音+对话框 -->
+    <string name="superman_ok">Okay</string>
+    <string name="superman_cancel">Cancel</string>
+    <string name="superman_title">Come on!</string>
+    <string name="superman_content">GO</string>
+
+</resources>

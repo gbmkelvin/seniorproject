@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_brown" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="#FFCC99" >
+
+        <ImageView
+            android:id="@+id/about_imageview_gohome"
+            style="@style/title_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/button_details_gohome" />
+
+        <TextView
+            android:id="@+id/textview_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Recipes ingredient"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.23" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="387dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFCC99" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#FFCC99" >
+
+        <ImageButton
+            android:id="@+id/image_btt_home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.42"
+            android:src="@drawable/index_home_icon" />
+
+        <ImageButton
+            android:id="@+id/image_btt_info"
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/index_info_icon" />
+
+
+
+        <ImageButton
+            android:id="@+id/image_btt_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.57"
+            android:src="@drawable/index_setting_icon" />
+    </LinearLayout>
+
+</LinearLayout>

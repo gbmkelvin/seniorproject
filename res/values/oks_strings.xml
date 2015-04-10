@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Cancel</string>
+    <string name="finish">Finish</string>
+    <string name="sharing">Sharing…</string>
+    <string name="share_to">Share to</string>
+	<string name="share">Share</string>
+	<string name="multi_share">multi share</string>
+	<string name="share_completed">share completed</string>
+	<string name="share_canceled">share canceled</string>
+	<string name="select_one_plat_at_least">platform</string>
+	<string name="list_friends">%s fridens</string>
+	<string name="share_failed">share fialed</string>
+</resources>

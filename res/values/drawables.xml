@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="red">#ffff0000</item>
+    <item type="drawable" name="gray">#ff999999</item>
+    <item type="drawable" name="solid_gray">#ffe2e2e2</item>
+    <item type="drawable" name="transplate">#00ffffff</item>
+    <item type="drawable" name="title_red">#ffc90000</item>
+    <item type="drawable" name="font_black">#ff333333</item>
+    <item type="drawable" name="solid_red">#ff860200</item>
+    <item type="drawable" name="font_red">#ff8b0101</item>
+    <item type="drawable" name="soild">#ffdddddd</item>
+    <item type="drawable" name="back_gray">#ffeeeeee</item>
+    <item type="drawable" name="comment_bg">#ffdddddd</item>
+    <item type="drawable" name="bg_color">#fffff6f1</item>
+    <item type="drawable" name="widget_title">#ff8b0101</item>
+    <item type="drawable" name="index_item_down">#fffae8e8</item>
+    <item type="drawable" name="index_item">#fffffcfa</item>
+</resources>

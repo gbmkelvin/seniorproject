@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_brown"
+    android:orientation="vertical" >
+
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="#FFCC99" >
+
+        <ImageView
+            android:id="@+id/about_imageview_gohome"
+            style="@style/title_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/button_details_gohome" />
+
+        <TextView
+            android:id="@+id/textview_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ingredient detail"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+    </FrameLayout>
+    
+
+    <ImageView
+        android:id="@+id/rimgtxt"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/bg_load_default" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.23" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.68"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/ridlabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ingredient No:"
+                    android:textStyle="bold" 
+                    android:textColor="#CC0000"/>
+
+                <TextView
+                    android:id="@+id/ridtxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold" 
+                    android:textColor="#FFCC99"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/rnamelabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ingredient name:"
+                    android:textStyle="bold"
+                    android:textColor="#CC0000" />
+
+                <TextView
+                    android:id="@+id/rnametxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#FFCC99" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/categorylabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category"
+                    android:textStyle="bold" 
+                    android:textColor="#CC0000"/>
+
+                <TextView
+                    android:id="@+id/categorytxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold" 
+                    android:textColor="#FFCC99"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/rdeslabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/des"
+                    android:textStyle="bold" 
+                    android:textColor="#CC0000"/>
+
+                <TextView
+                    android:id="@+id/rdestxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold" 
+                    android:textColor="#FFCC99"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+          android:background="#FFCC99" >
+
+        <ImageButton
+            android:id="@+id/image_btt_home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.42"
+            android:src="@drawable/index_home_icon" />
+
+        <ImageButton
+            android:id="@+id/image_btt_info"
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/index_info_icon" />
+
+
+
+        <ImageButton
+            android:id="@+id/image_btt_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.57"
+            android:src="@drawable/index_setting_icon" />
+    </LinearLayout>
+</LinearLayout>

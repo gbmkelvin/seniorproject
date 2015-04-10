@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/cmidlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cmid"
+        android:textColor="#FFCC99"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cmid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/cmidlabel"
+        android:textColor="#FFCC99"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cminstructionlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cmid"
+        android:text="@string/cminstruction"
+        android:textColor="#FFCC99"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cminstruction"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/cmimg"
+        android:layout_below="@+id/cmid"
+        android:layout_toLeftOf="@+id/cmimg"
+        android:layout_toRightOf="@+id/cminstructionlabel"
+        android:textColor="#FFCC99"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/cmimg"
+        android:layout_width="100.0dip"
+        android:layout_height="100.0dip"
+        android:layout_alignParentRight="true"
+        android:padding="1dp"
+        android:src="@drawable/bg_load_default" />
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.project.camt_cfc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="cn.project.camt_cfc.voice.SpeechVoiceControlApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".HomeActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".AboutusActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".SearchSingleItemView" />
+        <activity
+            android:name="cn.project.camt.recipedetail.RecipeDetailMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.camt.recipedetail.RecipeSingleItemView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.camt.cookingmethod.RecipeCookingMethodsMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.camt.cookingmethod.SingleItemViewFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.camt.cookingmethod.CmViewPagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.camt.cookingmethod.RecipeCookingMethodsSingleAdapter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.camt.recipedetail.RecipeIngredientActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.camt.ingredientdetail.IngredientDetailMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.camt.ingredientdetail.IngredientSingleItemView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.tencent.qq.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.camt_cfc.ShoppinglistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.camt_cfc.ShoppinglistDescription"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.tencent.qq.UserInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.tencent.qq.AuthMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.project.tencent.qq.ShareOnQQActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="cn.project.camt.utils.latSettings" >
+        </activity>
+        <activity
+            android:name="cn.sharesdk.framework.ShareSDKUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+       
+    </application>
+
+</manifest>

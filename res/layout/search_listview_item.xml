@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/srnamelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/srname"
+        android:textColor="#FFCC99"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/srname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/srnamelabel"
+        android:textColor="#FFCC99"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/srcategorylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/srname"
+        android:text="@string/srcategory"
+        android:textColor="#FFCC99"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/srcategory"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/srimg"
+        android:layout_below="@+id/srname"
+        android:layout_toLeftOf="@+id/srimg"
+        android:layout_toRightOf="@+id/srcategorylabel"
+        android:textColor="#FFCC99"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/srimg"
+        android:layout_width="100.0dip"
+        android:layout_height="100.0dip"
+        android:layout_alignParentRight="true"
+        android:padding="1dp"
+        android:src="@drawable/bg_load_default" />
+
+</RelativeLayout>
